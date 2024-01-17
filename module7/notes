@@ -1,0 +1,27 @@
+module7-v2
+-flexbox
+{
+-flex-direction
+-align items- decides the position of vertical postion
+-justify-content-decides the horizontal position
+---Both will be written in parent div
+-flex-direction = column, row etc 
+-flex-wrap=wrap, nowrap --- make the div to row
+
+}
+module7-v3
+- watch code for form-flex.html
+
+module7-v4
+- grid - display -grid --- grid-template-columns: repeat(3, 200px), 
+-----grid-gap, column-gap, row-gap
+
+{ 
+  parent-properties- grid-template-columns
+  grid-template-rows
+  row-gap, grip-gap
+  grid-template-columns: 1fr 3fr 2fr ---- 
+  children properties-
+
+
+}

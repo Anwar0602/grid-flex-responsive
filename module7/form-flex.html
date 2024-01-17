@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form By Flex</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        nav { 
+            border: 1px solid tomato;
+            background-color: tomato;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+        }
+        a {
+            text-decoration: none;
+            padding: 10px;
+            font-size: 25px;
+            color:azure;
+        }
+
+            /*  */
+        .login-form {
+            /* border: 3px dashed black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .form-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid violet;
+            border-radius: 10px;
+            margin: 100px;
+            width: 600px;
+        }
+
+        .form-heading {
+            background-color:violet;
+            border-radius: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            color: antiquewhite;
+            width: 600px;
+            height: 50px;
+        }
+
+        .form-body {
+            display: flex;
+            flex-direction: column;
+            
+            height: 300px;
+            width: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        form input {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid violet;
+            border-radius: 5px;
+        }
+
+        .login-submit {
+            background-color: tomato;
+            color: antiquewhite;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <div>        
+            <a href="">Login</a>
+        </div>
+    </nav>
+
+    <section class="login-form">
+
+        <div class="form-main">
+            <div class="form-heading">
+                <h3>Please Login</h3>
+            </div>
+            <form action="">
+                <div class="form-body">
+                    <input type="email" placeholder="Your Email">
+                    <input type="password" placeholder="password">
+                    <input class="login-submit" type="Submit" value="Submit">
+                </div>
+            </form>
+        </div>
+</section>
+</body>
+</html>
